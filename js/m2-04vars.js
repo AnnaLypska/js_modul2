@@ -18,3 +18,10 @@ console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
 
 console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.', 30));
 'Vestibulum facilisis, purus ne...'
+
+
+//Форматирование строки в зависимости от длинны строки
+//Напиши функцию formatString(string, maxLength = 40) которая принимает строку и форматирует ее если необходимо.
+
+//Если длина строки не превышает maxLength, функция возвращает ее в исходном виде.
+//Если длина больше maxLength, то функция обрезает строку до размера maxLength символов и добавляет в конец строки троеточие ..., после чего возвращает укороченную версию.
